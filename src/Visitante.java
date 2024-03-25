@@ -8,6 +8,8 @@ public class Visitante {
         long telefono;
         byte numeroApartamento;
         boolean primeraVisita;
+        float temperaturaCorporal;
+        double horaEntrada;
 
         nombre = "María Garcia Lopez";
         edad = 34;
@@ -15,6 +17,8 @@ public class Visitante {
         telefono = 65122489;
         numeroApartamento = 23;
         primeraVisita = true;
+        temperaturaCorporal = 36.5f;
+        horaEntrada = 13.23;
 
         System.out.println("nombre: " + nombre);
         System.out.println("edad: " + edad);
@@ -22,6 +26,8 @@ public class Visitante {
         System.out.println("telefono: " + telefono);
         System.out.println("numeroApartamento: " + numeroApartamento);
         System.out.println("¿primeraVisita?: " + primeraVisita);
+        System.out.println("temperaturaCorporal: " + temperaturaCorporal);
+        System.out.println("horaEntrada: " + horaEntrada);
 
     }
 }
